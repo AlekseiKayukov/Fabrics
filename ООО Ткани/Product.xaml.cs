@@ -50,6 +50,9 @@ namespace ООО_Ткани
         {
             UpdateServices();
         }
+        /// <summary>
+        /// Метод для совместной работы сортировки, фильтрации и поиска
+        /// </summary>
         private void UpdateServices()
         {
             var filterText = SearchTB.Text.Trim().ToLower();
